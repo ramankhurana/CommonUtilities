@@ -1,0 +1,14 @@
+CAUTION : This work fine and tested for CRAB2 for CRAB3 it will require some work. Mainly checking how it throws the output and how the log look like. 
+   
+It is not difficult to run this shell script. 
+   - create a text file crabdir.txt
+   - list all the crab task dir in this text file 
+   - set how many times you want to run this script. 
+   - set the delay between two runs. This is also the delay between checking the status of jobs. 
+   - Usually I have observed that checking the status for 10 times after 1 hr of submission is reasonable. 
+   - And After 6 hrs it is better to run the script with 30 mins delay for about 50 times which makes it one full day. Usually you get your 80% of jobs done with this iteration. 
+   - Rest will be done in next 2-3 days depending upon how the jobs crashed. 
+
+   NOTE: It is better to submit jobs with different number of lumis or different number of events per jobs when submitting many crab tasks. This is to avoid the situation when all jobs with same number of events ends at same time and can't be copied to storage area and the job fail. 
+
+   - I am trying to change it in such a way that one function can be called for different types of failures. Moreover this will be easy to implement in python. So wait for next version. 
