@@ -31,7 +31,7 @@ class ReplaceText:
             fbout.write("eval `scram runtime -sh` \n")
             fbout.write("cmsRun "+pythonfilename+" \n")
             nitemstoreplace = len(self.replaceby)
-            fbout.write("xrdcp /tmp/khurana/"+self.replaceby[nitemstoreplace-2]+" root://eoscms.cern.ch///store/user/khurana/HGCAL/GenSim/SingleParticle/"+self.replaceby[nitemstoreplace-2]+" \n")
+            fbout.write("xrdcp /tmp/khurana/"+self.replaceby[nitemstoreplace-2]+" root://eoscms.cern.ch///store/user/khurana/HGCAL/Digi/SingleParticle/"+self.replaceby[nitemstoreplace-2]+" \n")
             fbout.close
             
         if(SubmitJobs):
