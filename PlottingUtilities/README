@@ -1,0 +1,17 @@
+   * OverlappingPlots.py can make overlapping histograms (1D) or overlapping graphs. 
+   * You need to provide, 
+      * the list of rootfiles
+      * the list of variables to be plotted/compared. 
+      * X and Y axis title
+      * X axis range,
+      * Log scale or linear scale for both X and Y axes 
+      * directory name where plot will be saved 
+      * name of the pdf/png file to ve saved 
+      * normalize to area or not. 
+      * Any other option
+
+   * OverlappingPlotsRatio.py
+   * The functionality is exactly same as the previous one "OverlappingPlots.py" 
+      * In this macro you will get the ratio plots in bottom pad in addition to the overlapping histo pad. 
+      * the ratio will be taken such that the first histogram name provided will be ued as denominator. 
+      * you can configure the macro if you want to see the numerator / denominator OR (numerator - denominator) / denominator
