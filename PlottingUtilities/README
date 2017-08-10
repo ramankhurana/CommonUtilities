@@ -8,6 +8,7 @@
       * directory name where plot will be saved 
       * name of the pdf/png file to ve saved 
       * normalize to area or not. 
+      * rebin the histogrm
       * Any other option
 
    * OverlappingPlotsRatio.py
