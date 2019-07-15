@@ -9,5 +9,6 @@ treename=tree_fit_sb
 root -l <<EOF                                                                                                                                                                        
 TFile* f = new TFile("$rootfilename","READ");                                                                                                                                        
 f->cd();                                                                                                                                                                             
-${treename}->GetEntries()                                                                                                                                                            
+echo ${treename}->GetEntries()     
+
 EOF                                                                                                                                                                                  
