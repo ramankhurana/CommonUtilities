@@ -20,8 +20,8 @@ for which in  $filelist  ; do
     f->cd();                                                                                                                                                                                                
                                                                                                                                                                                                             
      ${treename}->GetEntries()                                                                                                                                                                              
-EOF                                                                                                                                                                                                         
-
+EOF
 
 done
+
 
