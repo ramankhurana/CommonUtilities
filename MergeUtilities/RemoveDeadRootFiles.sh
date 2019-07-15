@@ -3,6 +3,7 @@
 ## you should see the number of entries in the tree 
 ## test this on a dead file and then I can follow up from that point onwards, how to edit the script. 
 
+dirname="path_to_rootfiles_"
 rootfilename=mlfit.root
 treename=tree_fit_sb
 
