@@ -19,8 +19,9 @@ for which in  $filelist  ; do
     TFile* f = new TFile("$rootfilename","READ");                                                                                                                                                           
     f->cd();                                                                                                                                                                                                
                                                                                                                                                                                                             
-     ${treename}->GetEntries()                                                                                                                                                                              
-EOF
+     ${treename}->GetEntries()   
+     EOF
+     
 
 done
 
